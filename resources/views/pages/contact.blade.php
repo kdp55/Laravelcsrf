@@ -1,6 +1,5 @@
 @extends ('layouts.default')
 @section ('content')
-
     <div class="card mt-3 pl-2 pr-2">
         <div class="card-title"><h1>Contacts</h1>
         </div>
