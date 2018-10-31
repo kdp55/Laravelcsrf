@@ -12,7 +12,8 @@ class PageController extends Controller{
         return view('pages.contact');
     }
     function store(Request $request){
-        $name = $request-> $name;
+        $name = $request->name;
+      //  dd($name);
         return redirect()->route('thanks',['name' => $name]);
     }
     //function thanks($name, Request $request){
